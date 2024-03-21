@@ -1,0 +1,33 @@
+.advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 4%;
+  height: 4%;
+}
+
+.txt2 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #3a3a3a;
+  margin-top: -3%;
+  margin-left: -25%;
+}
+
+.description {
+  margin-top: -15%;
+  margin-left: -25%;
+}
+
+@media screen and (max-width: 1222px) {
+  .txt2 {
+    margin-left: 0;
+  }
+  .description {
+    margin-left: 0;
+  }
+}/*# sourceMappingURL=advantages.css.map */

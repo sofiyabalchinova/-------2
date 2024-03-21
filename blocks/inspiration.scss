@@ -1,0 +1,29 @@
+.background{
+    background-color: #FCF8F3;
+    width: 100%;
+}
+.left-block{
+    padding-right: 5%;
+    margin-top: 15%;
+}
+.h2-padd{
+    padding-right: 3%;
+}
+.txt_gray-padd{
+    padding-right: 40%;
+}
+.bttn3{
+    width: 50%;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 1em 1.5em;
+    color: #FFFF;
+    cursor: pointer;
+    background-color: #E89F71;
+    border: 2px solid #E89F71;
+}
+@media screen and (max-width: 750px){
+    .bttn3{
+        width: 65%;
+    }
+}
